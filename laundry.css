@@ -1,0 +1,111 @@
+*{padding: 0;
+margin: 0;
+box-sizing: border-box;}
+
+body{ 
+    background-color: #060b13;
+
+    display: flex;
+    flex-direction: column-reverse;
+    min-height: 100vh;
+    
+}
+
+.section{ 
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+margin-top: 100px;
+
+
+}
+
+.logo img{ 
+    margin-top: 10px;
+    border-radius: 60px;
+    border: black 1px solid;
+}
+.back{ display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+border: black 2px solid;
+height: 270px;
+width: 310px;;
+border-radius: 20px;
+background-color: rgb(11, 11, 33);
+flex-direction: column;
+padding: 5px 20px;
+
+
+}
+
+.back h1{ 
+    font-family: sans-serif;
+    
+    color: white;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.back section{ 
+    color: white;
+    font-family: cursive;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.trust{ 
+    color: white;
+    font-size: 12px;
+    font-family: cursive;
+
+
+}
+
+
+ .link{ text-decoration: none;
+    color: white;
+    font-family: cursive;
+background-color: #7f56ff;
+padding:  5px 32px;
+border-radius: 20px;
+border: none;
+cursor: pointer;
+
+}
+
+.link:hover{background-color: #060b13;
+    transition: 0.3s ease;
+
+}
+
+.link{ 
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    color: white;
+    width: 100%;
+    position: fixed;
+     border-top: white 1px solid;
+     border-top-style: dotted;
+}
+
+
+.signature {
+    font-family: cursive;
+    font-size: 20px;
+    color: yellow;
+    font-style: italic;
+   
+}
